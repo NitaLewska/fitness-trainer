@@ -14,6 +14,10 @@ body{
     overflow-x:hidden
 }
 
+button:hover{
+    cursor: pointer;
+}
+
 /* Header */
 
 header {
@@ -129,7 +133,7 @@ header article button {
     color: #FFFFFF;
 }
 
-#contacts h3+p {
+#contacts a {
     margin-top: 23px;
     font-family: 'Poiret One';
     font-weight: 400;
@@ -137,6 +141,7 @@ header article button {
     line-height: 23px;
     letter-spacing: 0.055em;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 #contacts p:last-of-type{
@@ -152,7 +157,7 @@ header article button {
 }
 
 
-#main_about{
+#aboutme {
     position: relative;
     top: -50px;
     margin: 0 15%;
@@ -160,15 +165,15 @@ header article button {
     align-items:flex-end;
 }
 
-#main_about img {
+#aboutme img {
     margin-left: 62px;
 }
 
-#main_about img+article{
+#aboutme img+article{
     margin-left: 40px;
 }
 
-#main_about h3 {
+#aboutme h3 {
     position: absolute;
     top: 30px;
     font-family: 'Roboto';
@@ -179,7 +184,7 @@ header article button {
     text-transform: uppercase;
 }
 
-#main_about h3+p {
+#aboutme h3+p {
     position: absolute;
     top: 68px;
     background: #EC3642;
@@ -194,7 +199,7 @@ header article button {
     color: #FFFFFF;
 }
 
-#main_about h3 span{
+#aboutme h3 span{
     color: #000;
 }
 
@@ -372,4 +377,63 @@ header article button {
 #gallery img {
     width: 100%;
     height: auto;
+}
+
+#map {
+    display: flex;
+    flex-direction: row;
+    margin-top: 97px;
+}
+
+#map article {
+    padding-left: 15vw;
+    width:50%;
+    background-color: #EC3642;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+#map article h4 {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#map article p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+}
+#map article button {
+    width: 280px;
+    height: 60px;
+    background-color: #FFF;
+    border: none;
+    border-radius: 1px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #EC3642;
+}
+
+#map iframe {
+    width:50%;
+}
+
+footer {
+    height: 350px;
+    margin: 0 15vw;
+    display: flex;
+    flex-direction: row;
 }
