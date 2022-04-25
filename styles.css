@@ -198,6 +198,40 @@ header article button {
     color: #000;
 }
 
+#advantages {
+    width: 100%;
+    height: 260px;
+    background-color: rgba(236, 54, 66, 0.95);
+    display: flex;
+    flex-direction: row;
+    padding: 0 15vw;
+    align-items:center;
+    justify-content: space-between;
+}
+
+#advantages article{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+#advantages img{
+    width: 100px;
+    height: 100px;
+}
+
+#advantages h4 {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 135.5%;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 17px;
+}
+
 #groupnind {
     width: 100vw;
     display: flex;
