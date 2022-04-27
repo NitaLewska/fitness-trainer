@@ -572,10 +572,67 @@ footer #copyright {
 
 
 @media (max-width: 1440px) {
-   
+    header{
+        background-position: center;
+    }
+     
+    header article h1 {
+        font-size: 90px;
+        line-height: 110px;
+        margin-right: 50px;
+    }
+
 }
 
 
 @media (max-width: 600px) {
 
+    header nav {
+        display:none;
+    }
+    
+    header nav ul{
+    }
+    
+    header nav li a {
+    }
+    
+    header article {
+        margin-left: 6%;
+    }
+    
+    header article h2 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    header article h1 {
+        font-size: 60px;
+        line-height: 80px;
+        margin-top: 20px;
+    }
+    
+    header article p {
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin-top: 15px;
+    }
+    
+    header article button {
+        width: 280px;
+        height: 60px;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        background: #EC3642;
+        border-radius: 1px;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
 }
