@@ -366,7 +366,7 @@ header article button {
     align-items:flex-end;
 }
 
-#groupnind article h4{
+#groupnind article h3{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -406,7 +406,7 @@ header article button {
     gap: 10px;
 }
 
-#equipment h4{
+#equipment h3{
     grid-column: 1/5;
     font-family: 'Roboto';
     font-weight: 900;
@@ -442,7 +442,7 @@ header article button {
     gap:0;
 }
 
-#gallery h4 {
+#gallery h3 {
     grid-column: 1/6;
     margin-left: 15vw;
     font-family: 'Roboto';
@@ -493,7 +493,7 @@ header article button {
     justify-content: center;
 }
 
-#map article h4 {
+#map article h3 {
     font-family: 'Roboto';
     font-weight: 900;
     font-size: 32px;
@@ -503,6 +503,7 @@ header article button {
 }
 
 #map article p {
+    margin-top: 40px;
     font-family: 'Roboto';
     font-weight: 300;
     font-size: 16px;
@@ -512,6 +513,7 @@ header article button {
     color: #FFFFFF;
 }
 #map article button {
+    margin-top: 45px;
     width: 280px;
     height: 60px;
     background-color: #FFF;
