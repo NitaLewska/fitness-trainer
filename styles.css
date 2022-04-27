@@ -481,6 +481,33 @@ header article button {
     height: auto;
 }
 
+#wrapper {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100vw;
+    overflow-y: scroll;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.95);
+    z-index: 2;
+}
+
+#fullgallery {
+    margin: 0 4vw;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 4%;
+
+}
+
+#fullgallery img{
+    width: 20vw;
+    height: auto;
+}
+
+#fullgallery img:first-of-type{
+    grid-column: 1/5;
     height: 30px;
     width: 30px;
     justify-self: right;
