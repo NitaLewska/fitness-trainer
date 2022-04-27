@@ -166,6 +166,9 @@ header article button {
 }
 
 #aboutme img {
+    align-self: start;
+    max-width: 680px;
+    width:60%;
     margin-left: 62px;
 }
 
@@ -484,6 +487,7 @@ header article button {
     align-self: center;
     margin-top: 30px;
 }
+
 
 #map {
     display: flex;
