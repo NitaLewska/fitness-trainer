@@ -477,6 +477,13 @@ header article button {
     height: auto;
 }
 
+    height: 30px;
+    width: 30px;
+    justify-self: right;
+    align-self: center;
+    margin-top: 30px;
+}
+
 #map {
     display: flex;
     flex-direction: row;
@@ -561,5 +568,13 @@ footer a{
 footer #copyright {
     grid-column: 1/4;
 }
+
+
+@media (max-width: 1440px) {
+   
+}
+
+
+@media (max-width: 600px) {
 
 }
