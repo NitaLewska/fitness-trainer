@@ -292,6 +292,14 @@ header article button {
     color: #747474;
 }
 
+#services .disabled {
+    display: none;
+}
+
+#services .active {
+    display: grid;
+}
+
 #advantages {
     width: 100%;
     height: 260px;
