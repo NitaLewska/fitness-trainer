@@ -571,6 +571,9 @@ footer #copyright {
 }
 
 
+/* RESPONSIVENESS */
+
+
 @media (max-width: 1440px) {
     header{
         background-position: center;
@@ -586,8 +589,12 @@ footer #copyright {
 
 
 @media (max-width: 600px) {
-
-    header nav {
+    
+    header nav{
+        background-color: transparent;
+        padding-left: 6%;
+    }
+    header nav ul{
         display:none;
     }
     
@@ -598,6 +605,7 @@ footer #copyright {
     }
     
     header article {
+        margin-top: 4%;
         margin-left: 6%;
     }
     
