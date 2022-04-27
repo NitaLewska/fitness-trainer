@@ -524,6 +524,32 @@ header article button {
 footer {
     height: 350px;
     margin: 0 15vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items:center;
+    justify-items: center;
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.055em;
+    color: #0C0C0C;
+    
+}
+footer ul{
+    list-style: none;
     display: flex;
-    flex-direction: row;
+}
+
+footer a{
+    text-decoration: none;
+    color: #0C0C0C;
+
+}
+
+footer #copyright {
+    grid-column: 1/4;
+}
+
 }
