@@ -233,6 +233,7 @@ header article button {
     line-height: 16px;
     text-transform: uppercase;
     color: #595959;
+    margin-left: 15px;
 }
 
 #services ul li:hover{
